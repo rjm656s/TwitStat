@@ -20,9 +20,9 @@ namespace TwitStat
         {
 
             string consumerKey = "PvQ8jo3xtwp2eMjSfnCqKUzTW";
-            string consumerSecret = "8TTMrZtglupTGFJpiZ2pZuG853qdI8jx2hJZbGvhu0qiU3Pywo";
+            string consumerSecret = "";
             string accessToken = "760532886084653056-c4IVxOvwx0NuelgfWl4C7qhocVMI52L";
-            string accessTokenSecret = "64UOP2G6jx9J8BT2WAAeISlyUj9a6bNXmbqnc7GNEgXmQ";
+            string accessTokenSecret = "";
             Auth.ApplicationCredentials = new TwitterCredentials(consumerKey, consumerSecret, accessToken, accessTokenSecret);
 
             while (true)
