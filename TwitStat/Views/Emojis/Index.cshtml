@@ -1,0 +1,39 @@
+﻿@model IEnumerable<TwitStat.Models.Emojis>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Top Emojis</h2>
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.EmojiName)
+        </th>
+        <th>
+            Unicode Representation
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Count)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.EmojiName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EmojiUnicode)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Count)
+        </td>
+        
+    </tr>
+}
+
+</table>

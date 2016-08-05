@@ -1,0 +1,37 @@
+﻿@model IEnumerable<TwitStat.Models.TwitSeconds>
+
+@{
+    ViewBag.Title = "Twitter Stream Statistics";
+}
+
+<h2>Index</h2>
+
+<p>Total Tweets:
+    @ViewBag.CountTotal
+</p>
+<p>
+    Average tweets per second:
+    @ViewBag.CountAverage
+</p>
+<p>
+    Average length of tweets:
+    @ViewBag.LengthAverage
+</p>
+<p>
+    Tweets that cotain Hashtags:
+    @ViewBag.HashtagPercent% @Html.ActionLink("[Top Hashtags]", "Index", "Hashtags")
+</p>
+<p>
+    Tweets that cotain Emojis:
+    @ViewBag.EmojiPercent% @Html.ActionLink("[Top Emojis]", "Index", "Emojis")
+</p>
+<p>
+    Tweets that cotain URLs:
+    @ViewBag.URLPercent% @Html.ActionLink("[Top URL Domains]", "Index", "URLDomains")
+</p>
+<p>
+    Tweets that cotain Photo URLs:
+    @ViewBag.PhotoURLPercent%
+</p>
+
+

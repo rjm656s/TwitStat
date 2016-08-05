@@ -1,0 +1,33 @@
+﻿@model IEnumerable<TwitStat.Models.URLDomains>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Top Domains</h2>
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Domain)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Count)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Domain)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Count)
+        </td>
+        
+    </tr>
+}
+
+</table>
