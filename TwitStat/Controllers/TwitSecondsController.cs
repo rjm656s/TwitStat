@@ -49,6 +49,8 @@ namespace TwitStat.Controllers
         {
             int CountAverage = (int)db.TwitSeconds.Select(x => x.Count).Average();
             ViewBag.CountAverage = CountAverage;
+            ViewBag.MinuteAverage = CountAverage * 60;
+            ViewBag.HourAverage = CountAverage * 60 * 60;
 
             int CountTotal = db.TwitSeconds.Select(x => x.Count).Sum();
             ViewBag.CountTotal = CountTotal;
@@ -73,7 +75,7 @@ namespace TwitStat.Controllers
             double LengthAverage = TweetLength / CountTotal;
             ViewBag.LengthAverage = Math.Round(LengthAverage, 0);
 
-            return View(db.TwitSeconds.ToList());
+            return View();
         }
 
         // GET: TwitSeconds/Create
