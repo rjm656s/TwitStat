@@ -15,5 +15,5 @@ TwitStat reports the following statistics about the stream it consumes:
 Install Visual Studio 2015, create a new project, and clone this repository. You must supply values for the consumerSecret and accessTokenSecret strings in StreamConnection.cs.
 
 #Libraries
-TwitStat uses the [Tweetinvi](https://github.com/linvi/tweetinvi) libarary to facilitate its connection with Twitter's APIs, and the [EmojiSharp](https://github.com/jmazouri/EmojiSharp) library to identify Emojis (EmojiSharp uses a template to consume emoji.json from the [emoji-data](https://github.com/iamcal/emoji-data) project.
+TwitStat uses the [Tweetinvi](https://github.com/linvi/tweetinvi) libarary to facilitate its connection with Twitter's APIs, and the [EmojiSharp](https://github.com/jmazouri/EmojiSharp) library to identify Emojis (EmojiSharp uses a template to consume emoji.json from the [emoji-data](https://github.com/iamcal/emoji-data) project).
 
