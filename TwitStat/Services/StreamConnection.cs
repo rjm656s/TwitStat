@@ -19,7 +19,7 @@ namespace TwitStat
         public StreamConnection(Dictionary<string, string> emojiDict)
         {
 
-            string consumerKey = "PvQ8jo3xtwp2eMjSfnCqKUzTW";
+            string consumerKey = "oIX2HCrtjl9SiT06gCciOQTfk";
             string consumerSecret = "";
             string accessToken = "760532886084653056-c4IVxOvwx0NuelgfWl4C7qhocVMI52L";
             string accessTokenSecret = "";
