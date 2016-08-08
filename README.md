@@ -5,7 +5,7 @@ TwitStat is a web application written using the ASP.NET MVC Framework in Visual 
 TwitStat reports the following statistics about the stream it consumes:
 * Total count of tweets processed.
 * Average tweets per second, minute, and hour.
-* Average lenghth (in characters) of tweets processed.
+* Average length (in characters) of tweets processed.
 * Percentage of tweets that contain emojis, and list of the top emojis seen.
 * Percentage of tweets that contain hashtags, and list of the top hashtags seen.
 * Percentage of tweets that contain URLs, and list of the top domains seen.
