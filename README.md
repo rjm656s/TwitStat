@@ -1,5 +1,5 @@
 #TwitStat
-TwitStat is a web application written using the the ASP.NET MVC Framework in Visual Studio 2015. It comsumes the Twitter Sample Stream using the Twitter Streaming API, and collects various statistics about the stream.
+TwitStat is a web application written using the ASP.NET MVC Framework in Visual Studio 2015. It comsumes the Twitter Sample Stream using the Twitter Streaming API, and collects various statistics about the stream.
 
 #Features
 TwitStat reports the following statistics about the stream it consumes:
